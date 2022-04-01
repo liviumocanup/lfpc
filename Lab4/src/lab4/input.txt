@@ -1,0 +1,16 @@
+G=(Vn, Vt, P, S)
+Vn={S, A, B, C, D}
+Vt={a, b}
+P={
+1. S->aB
+2. S->A
+3. A->bAa
+4. A->aS
+5. A->a
+6. B->AbB
+7. B->BS
+8. B->a
+9. B->ε
+10. C->BA
+11. D->a
+}

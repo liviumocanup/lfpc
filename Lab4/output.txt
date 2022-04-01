@@ -1,0 +1,6 @@
+Grammar{
+startingSymbol = 'S',
+nonTerminalSet = [A, B, S, Y1, X1, Y2, X2],
+terminalSet = [a, b],
+productionRules = {A=[X2Y1, X1S, a], B=[AY2, BS, a, AX2, X1B, X2Y1, X1S], S=[X1B, a, X2Y1, X1S], Y1=[AX1], X1=[a], Y2=[X2B], X2=[b]}
+}
