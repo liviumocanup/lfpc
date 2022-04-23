@@ -1,0 +1,10 @@
+Grammar{
+startingSymbol = 'S',
+nonTerminalSet = [A, S, D, E, F, X],
+terminalSet = [a, b, c, d, e],
+productionRules = {A=[dD, b], S=[E], D=[Fe], E=[FcA], F=[aX], X=[ε, baX]}
+}
+
+{A=[b, d], S=[a], D=[a], E=[a], F=[a], X=[b, ε]}
+{A=[$], S=[$], D=[$], E=[$], F=[c, e], X=[c, e]}
+{A={a=, b=b, c=, d=dD, $=, e=}, S={a=E, b=, c=, d=, $=, e=}, D={a=Fe, b=, c=, d=, $=, e=}, E={a=FcA, b=, c=, d=, $=, e=}, F={a=aX, b=, c=, d=, $=, e=}, X={a=, b=baX, c=ε, d=, $=, e=ε}}
